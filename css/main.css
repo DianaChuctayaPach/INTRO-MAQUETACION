@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: #9C1C79;
+  text-align:center;
+    font-size: 25px;
+font-family:fantasy;
+
+}
+select{
+    margin:10px;
+    padding:10px 35px;
+    border: none;
+    border-radius: 5px;
+    background: #FFDB4B;
+    color:#0A24B2;
+    font-family: "Homer Simpson", cursive;
+
+}
+.animal{
+    width: 300px;
+    height: 300px;
+    margin: 0;
+}
+.blanco-negro{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+ }
+.invertir-colores{
+    -webkit-filter: invert(.8);
+    filter: invert(.8);
+}
+.sepia{
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+}
